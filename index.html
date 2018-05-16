@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div id="container">
+        <div class="header_area">
+            <div class="header_label">
+                <label class="header_label_text">Planning Poker Calc</label>
+            </div>
+        </div>
+        <div id="board">
+            <div class="view"><label id="text" name="text">0</div>
+            <div class="num_btn">
+                <div class="num_p panel_base" onClick="pushedButton('0')">0</div>
+                <div class="num_p panel_base" onClick="pushedButton('1')">1</div>
+                <div class="num_p panel_base" onClick="pushedButton('2')">2</div>
+                <div class="num_p panel_base" onClick="pushedButton('3')">3</div>
+                <div class="num_p panel_base" onClick="pushedButton('5')">5</div>
+                <div class="num_p panel_base" onClick="pushedButton('8')">8</div>
+                <div class="num_p panel_base" onClick="pushedButton('13')">13</div>
+                <div class="num_p panel_base" onClick="pushedButton('21')">21</div>
+                <div class="num_p panel_base" onClick="pushedButton('34')">34</div>
+                <div class="num_p panel_base" onClick="pushedButton('55')">55</div>
+                <div class="num_p panel_base" onClick="pushedButton('89')">89</div>
+            </div>
+            <div class="func_btn">
+                <div class="cl_p panel_base" onClick="pushedButton('Clear')">Clear</div>
+                <div class="avg_p panel_base" onClick="pushedButton('AVG')">AVG</div>
+            </div>
+        </div>
+        <div class="counter_area">
+            <label class="counter_area_label" id="counter_label">
+
+            </label>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

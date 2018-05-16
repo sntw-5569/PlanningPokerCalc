@@ -1,0 +1,86 @@
+body {
+    background: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#container {
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#board {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_area {
+    margin: 10px 0 10px 0;
+}
+.header_label_text {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.counter_area {
+    margin: 10px 0 10px 0;
+    height: 30px;
+    width: 100%;
+}
+.counter_area_label {
+    color: #663721;
+    font-size: 20px;
+}
+
+.view {
+    background: #aaccaa;
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#text {
+    color: rgb(2, 88, 24);
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.num_btn {
+    margin-bottom: 10px;
+}
+.func_btn {
+    margin: 10px 0 10px 0;
+}
+.panel_base {
+    cursor: pointer;
+    background: #33aa33;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 #225522;
+    line-height: 60px;
+    text-align: center;
+    display: inline-table;
+}
+.num_p {
+    width: 70px;
+    height: 60px;
+    font-size: 26px;
+}
+.cl_p {
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+}
+.avg_p {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+}
